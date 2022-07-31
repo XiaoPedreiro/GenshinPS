@@ -1,0 +1,64 @@
+Aviso:
+- Tenha em mente que qualquer problema que aconteça com seu computador, será responsabilidade sua, pois todo o processo estará explicado neste texto.
+OBS: Todos os arquivos estarão disponiveis na pasta, mas caso queira passar para alguem ou baixar destas fontes abaixo, siga os links e tutorias abaixo.
+
+Vamos começar:
+
+- Requisitos para acessar o Servidor Privado:
+
+1- Fiddler Classic
+2- 2 Metadatas (Original e Modificada)
+3- Jogo original do site da mihoyo
+
+Links:
+
+Fiddler: https://www.telerik.com/fiddler/fiddler-classic (Cole no navegador)
+
+Metadata(s):
+
+Original: https://www.mediafire.com/file/mpa45f95neyc0lc/Originalglobal-metadata.dat/file (Caso tenha substituido, perdido, excluído ou não tenha.)
+Patch: https://www.mediafire.com/file/3umt7hy57n76vll/Privateglobal-metadata.dat/file (Necessária para acessar o servidor.)
+
+Jogo:
+Apenas para caso não tenha o jogo instalado e queira testar por curiosidade, ou apenas por reinstalação: https://genshin.hoyoverse.com/pt/download
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tutorial:
+
+Inserindo a metadata(alteração):
+
+1) Localize a pasta do jogo "Genshin impact game" para prosseguir.
+2) Localize dentro da pasta do jogo a pasta "GenshinImpact_Data" depois, "Managed" e por fim "Metadata".
+2.1) Caminho da pasta: Este Computador\"pasta onde voce instalou o jogo"\Genshin Impact game\GenshinImpact_Data\Managed\Metadata
+3) Após localizar essa pasta, copie o arquivo baixado "privateglobal-metadata.dat" e cole-o na pasta Metadata.
+4) Após isso, renomeie o arquivo original da metadata para um nome que você terá certeza que é a metadata original. 
+Ex: 1global-metadata.dat
+Ex 2: originalglobal-metadata.dat
+5) Após renomear o arquivo original, nomeie a "privateglobal-metadata.dat" para "global-metadata.dat"
+OBS: Sempre que for alternar entre servidor original e privado, nunca esqueça de mudar a metadata, pois poderá acontecer algum erro de login, ou possivelmente
+banimento em sua conta principal por métodos de terceiros.
+
+Segundo passo:
+
+Configurando o fiddler:
+
+1) Após ter instalado o fiddler em seu computador, execute o programa e em sua interface vá na aba "Tools"
+2) Abra e selecione a caixa de diálogo "Options", e em seguida pressione em HTTPS na janela que irá abrir.
+3) Marque as seguintes caixas de diálogo:
+" Capture HTTPS CONNECTs " e " Decrypt HTTPS traffic "
+
+4) Após configurar tudo, salve as alterações e feche a janela e em seguida vá na aba "FiddlerScript".
+5) Apague todo o texto escrito na página e cole o seguinte comando que estará neste site: https://game.yuuki.me/posts/how-connect e após clique em "Save Script".
+6) Feito isso seu jogo estará pronto para acessar o servidor.
+
+Terceiro passo:
+
+Entrando em jogo:
+
+1) Após ter feito os seguintes processos, minimize a janela do fiddler.
+OBS: Se você fechar o aplicativo, o jogo pode não funcionar, então apenas minizime-o e deixe rodando.
+
+2) Abra o genshin impact e execute o jogo.
+3) Em jogo, Insira um nome aleatório ou personalizado.
+3) Insira uma senha válida de até 8 digitos.
+4) Aperte para fazer login e pronto, seu jogo estará conectado ao servidor privado.
